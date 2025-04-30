@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | Satyajeet Mhaske </title>
+    <link rel="stylesheet" href="about.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">Satyajeet Mhaske</div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html" class="active">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="hamburger">☰</div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section id="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <div class="about-content">
+                    <!-- Photo on the left -->
+                    <div class="profile-photo">
+                        <div class="photo-frame">
+                            <img src="HomeImage.jpg" alt="Satyajeet Mhaske" class="profile-img"
+                                style="border: 5px solid var(--dark-beige); border-radius: 50%;">
+                        </div>
+                    </div>
+                    
+                    <!-- Text content on the right -->
+                    <div class="about-text">
+                        <h3>Who Am I?</h3>
+                        <p>I am a first-year chemical Engineering student at MIT Academy of Engineering (MITAOE), Alandi, Pune. Originally from Nashik, I have a keen interest in chemical and there studies.</p>
+                
+                        <p>I am passionate about exploring data-driven solutions and learning how technology can be leveraged to solve problems related to chemical branch.</p>
+                    
+                        <p>Currently, I am developing my skills in Python, statistics, and Computer aided chemical engineering, while working on small projects to enhance my practical knowledge. I am always eager to learn, collaborate, and grow in the field of chemical.</p>
+                        <a href="contact.html" class="btn">Get In Touch</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Fixed Footer -->
+    <footer>
+        <div class="container">
+            
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        document.querySelector('.hamburger').addEventListener('click', function() {
+            document.querySelector('.nav-links').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
